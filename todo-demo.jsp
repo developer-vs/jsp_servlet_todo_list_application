@@ -48,7 +48,7 @@
 			request.getParameter - will get value from the client side,
 								   if value is not null then it will
 								   assign the value to the session on
-								   the server side.
+								   the server side. 
 		*/
 		String theItem = request.getParameter("theItem");
        	if (theItem != null && (!theItem.trim().equals("") ) ){
