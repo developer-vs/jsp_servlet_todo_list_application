@@ -60,7 +60,7 @@
 		<%
 			// Display all "To Do" item from session
 			for (String temp : items) {				
-				out.println("<li>" + temp + "</li>");				
+				out.println("<li>" + temp + "</li>");
 			}
 		%>
 	</ol>
